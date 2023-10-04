@@ -1,0 +1,34 @@
+ {
+    "query":{
+        "images":"/media/guan/3CD61590D6154C10/SomeCodes/Render2Loc/data/Query/image/phone/day/sequence2",
+        "prior_pose":"/media/guan/3CD61590D6154C10/SomeCodes/Render2Loc/data/Query/queries_prior/phone_day2_prior.txt",
+        "gt_pose":"/media/guan/3CD61590D6154C10/SomeCodes/Render2Loc/data/Query/queries_gt/phone_day2_gt.txt",
+        "intrinsic":"/media/guan/3CD61590D6154C10/SomeCodes/Render2Loc/data/Query/queries_intrinsics/phone_day2_intrinsics.txt"
+    },
+    "model":{
+        "DSM_file":"/media/guan/3CD61590D6154C10/SomeCodes/Render2Loc/data/3D_Model/DSM/DSM1_DSM_merge.tif"
+    },
+    "loc": {"estimation": {"ransac": {"max_error": 12}},  "**({})":""
+    },
+    "blender":{
+    "blender_path": "/home/guan/下载/blender-3.3.1-linux-x64/blender",
+    "rgb_path":"/media/guan/3CD61590D6154C10/SomeCodes/Render2Loc/data/blender/rgb.blend",
+    "origin": "[399961,3138435,0]",
+    "f_mm_air":24,
+    "f_mm_phone":21.5538,  
+    "input_recons" : "/media/guan/3CD61590D6154C10/SomeCodes/Render2Loc/data/3D_Model/obj/Data",
+    "depth_path":"/media/guan/3CD61590D6154C10/SomeCodes/Render2Loc/data/blender/depth.blend",
+    "python_path_phone":"/media/guan/3CD61590D6154C10/SomeCodes/Render2Loc/lib/blender/blender_phone1.py",
+    "python_path_uav":"/media/guan/3CD61590D6154C10/SomeCodes/Render2Loc/lib/blender/blender_uav.py",
+    "python_obj_path":"/media/guan/3CD61590D6154C10/SomeCodes/Render2Loc/lib/blender/importObjs.py",
+    "iteration_nums":4,
+    "aborlation": "fix_yaw",
+    "render_image":"/media/guan/3CD61590D6154C10/SomeCodes/Render2Loc/data/Render_image",
+    "depth_image":"/media/guan/3CD61590D6154C10/SomeCodes/Render2Loc/data/Render_image/depths",
+    "rgb_image":"/media/guan/3CD61590D6154C10/SomeCodes/Render2Loc/data/Render_image/rgbs"
+    },
+    "render2loc":
+    {
+        "sequence":"phone_day2"
+    }
+}
