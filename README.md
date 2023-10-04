@@ -4,7 +4,7 @@ This repository contains the official implementation of the Render2loc localizat
 Please make sure you have access to the **AirLoc dataset** and have set it up properly before proceeding. 
 
 <p align="center">
-  <img src="assets/full_img.png" height="500">
+  <img src="./Render2Loc/assets/full_img.png" height="500">
 </p>
 
 The Render2Loc localization algorithm is officially presented in the paper accepted to ICME 2022
