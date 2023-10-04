@@ -11,7 +11,7 @@ The Render2Loc localization algorithm is officially presented in the paper accep
 <br>
 **Render-and-Compare: Cross-view 6-DoF Localization from Noisy Prior**
 <br>
-Links: [arXiv](https://arxiv.org/pdf/2302.06287.pdf) | [code repos](https://github.com/) 
+Links: [arXiv](https://arxiv.org/pdf/2302.06287.pdf) | [code repos](https://github.com/RingoWRW/Render2Loc/) 
 
 ##  Get started
 
